@@ -15,14 +15,38 @@
         body{
            padding-top: 60px;
            content: ""; 
+           background-color:blueviolet;
         }
+       .card{
+           width:250px;
+           
+       } 
+
+       .card-img-top{
+           height:15rem;
+       }
+       .bi-facebook{
+           color:lightblue;
+       }
+       .bi-twitter{
+           color:white;
+       }
+       .bi-youtube{
+           color:red;
+       }
+       .bi-instagram{
+            color:purple;
+       }
+       a{
+           color: white;
+       }
 
     </style>
 </head>
 <body>
     <!--navbar-expand-md dictates to the web browser when to expand the navigation menu.In this case, when the screen width is >768px which is the breakpoint for medium-sized screens-->
-   <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
-        <div class="container-fluid">
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
             <a href="#" class="navbar-brand"><img src="C:\Users\5\OneDrive\Pictures\squid-clipart.svg" height="28" alt="Squid-art"><em> Mchunu SeaFoods</em></a>
             <button class="navbar-toggler" 
                         type="button" 
@@ -48,27 +72,176 @@
         </div>
     </div>
     </nav>
-    <section class="bg-dark text-center py-2">
+    <section class=" text-center py-2" id="homepage">
         <div class="container">
-            <div class="row g-md-5">
-                <div class="col-md-6 ">
+            <div class="row g-md-5 text-center">
+                <div class="col-md-10">
                     <h1>Tired of being catfished? Come to Mchunu SeaFoods. </h1>
                     <p class="lead">Where we serve our customers' with honest and mouth-watering seafoods that will have you begging for more as they aim to please . </p>
-                    <a class="btn btn-info" href="#menu">View our dishes &raquo</a>
+                    <a class="btn btn-dark" href="#menu">View our dishes &raquo</a>
                 </div>
                 <div class="col-md">
-                    <img class=" d-none d-md-block svg-color" src="C:\Users\5\OneDrive\Pictures\crab.svg" height=200 alt="A crab">
+                    <div class="clearfix">
+                        <img class=" d-none d-md-block float-md-end " src="C:\Users\5\OneDrive\Pictures\crab.svg" height=200 alt="A crab">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section class="bg-dark py-2 mt-3">
         <div class="container">
-        <h2 id="about" class="text-md-center">About Us</h2>
+        <h2 id="about" class="text-md-center"><strong>About Us</strong></h2>
         <p>We are a restaurant that specialises in providing an exceptional seafood dining experience for our seafood lovers.We started as a business that sold home-made 
             cooked fish to the people of Umlazi, a township located in Durban,South Africa.We would set-up a stand near the Umlazi Z section taxi rank and sell to commuters travelling 
             by taxi to work.This lead to us growing into a successful SME that employs 156 people from all-over the Durban region.We are currently located in Durban,South along the beach promenade next to steers.</p>
         </div>
+    </section>
+    <section class="mb-3 mt-3">
+        <div class="container">
+            <h2 id="menu" class="text-md-center"><strong>Dishes</strong></h2>
+                <div class="row g-4">
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\fish & chips.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Fish & Chips</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Cioppino -Italian seafood stew.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Cioppino:Italian seafood stew</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Creamy garlic seafood pasta.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Creamy garlic seafood pasta</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Salmon.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Salmon</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Lobster.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Lobster</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Mussels.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Mussels</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Shrimp.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Shrimp</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\spicy calamari sushi rolls.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Spicy calamari sushi rolls</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Grilled octopus.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Grilled octopus</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Frutti di Mare.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Frutti di Mare</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Fried calamari.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Fried Calamari</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top"src="C:\Users\5\OneDrive\Pictures\Filipino.jfif" alt="image">
+                            <div class="card-body text-center">
+                                <h3><strong>Filipino</strong></h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="bg-dark text-md-center py-2">
+        <h2 id="contact"><strong>Contact Us</strong></h2>
+            <p>For more mouth watering content send us an email to <br><i class="bi-envelope"></i> mchunucustomerservice@gmail.com <br> OR <br><i class="bi-telephone"></i> Call 087 353 4549</p>
+            <p>Alternatively, you can visit our social media pages <br><a href="#"><i class="bi-facebook"></i></a>  <a href="#"><i class="bi-instagram"></i></a>  <a href="#"><i class="bi-twitter"></i></a>  <a href="#"><i class="bi-youtube"></i></a></p>
+    </section>
+    <section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <p>Copyright &copy; 2022 Asandah Devs</p>
+                    </div>
+                    <div class="col-md text-end">
+                        <p><a href="#">Terms and Conditions</a> <span>|</span> <a href="#">Privacy</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
     </section>
 <!--Importing a js bundler inside the body tag-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
