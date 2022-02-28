@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mchunu SeaFoods</title>
+     <!--Importing bootstrap via a CDN link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!--Importing bootstrap icons via a CDN link-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+        body{
+           padding-top: 60px;
+           content: ""; 
+        }
+
+    </style>
+</head>
+<body>
+    <!--navbar-expand-md dictates to the web browser when to expand the navigation menu.In this case, when the screen width is >768px which is the breakpoint for medium-sized screens-->
+   <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="C:\Users\5\OneDrive\Pictures\squid-clipart.svg" height="28" alt="Squid-art"><em> Mchunu SeaFoods</em></a>
+            <button class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navmenu">
+             <span class="navbar-toggler-icon"></span> 
+            </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                    <a href="#homepage" class="nav-link" active>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Dishes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <section class="bg-dark text-center py-2">
+        <div class="container">
+            <div class="row g-md-5">
+                <div class="col-md-6 ">
+                    <h1>Tired of being catfished? Come to Mchunu SeaFoods. </h1>
+                    <p class="lead">Where we serve our customers' with honest and mouth-watering seafoods that will have you begging for more as they aim to please . </p>
+                    <a class="btn btn-info" href="#menu">View our dishes &raquo</a>
+                </div>
+                <div class="col-md">
+                    <img class=" d-none d-md-block svg-color" src="C:\Users\5\OneDrive\Pictures\crab.svg" height=200 alt="A crab">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+        <h2 id="about" class="text-md-center">About Us</h2>
+        <p>We are a restaurant that specialises in providing an exceptional seafood dining experience for our seafood lovers.We started as a business that sold home-made 
+            cooked fish to the people of Umlazi, a township located in Durban,South Africa.We would set-up a stand near the Umlazi Z section taxi rank and sell to commuters travelling 
+            by taxi to work.This lead to us growing into a successful SME that employs 156 people from all-over the Durban region.We are currently located in Durban,South along the beach promenade next to steers.</p>
+        </div>
+    </section>
+<!--Importing a js bundler inside the body tag-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
